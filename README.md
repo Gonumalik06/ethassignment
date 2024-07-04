@@ -50,6 +50,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Conclusion
 MyToken provides a straightforward implementation of a token contract with basic minting and burning functionality. This can serve as a foundation for more complex token contracts and decentralized applications.
+
+source code with the readme file .
+
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
