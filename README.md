@@ -2,6 +2,7 @@ MyToken Smart Contract
 
 Overview
 MyToken is a simple ERC-20-like smart contract implemented in Solidity. This contract allows the creation, minting, and burning of a token named "META" with the abbreviation "MTA". It includes basic functionalities for managing token balances, including minting new tokens and burning existing ones.
+
 Features
 Public Variables:
 tokenName: The name of the token ("META").
@@ -82,16 +83,15 @@ contract MyToken {
 
     // mint function
    function mint  (address _address, uint _value) public {
-    totalSupply += _value; // corrected here from _values to _value
-    balances[_address] += _value; // corrected here from _values to _value
+    totalSupply += _value; 
+    balances[_address] += _value;
     }
 
     // burn function
    function burn (address _address, uint _value) public {
     if (balances[_address] >= _value) {
-    totalSupply -= _value; // corrected here from _values to _value
-    balances[_address] -= _value; // corrected here from _values to _value
-}
+    totalSupply -= _value; 
+    balances[_address] -= _value; 
         }
 }
 
