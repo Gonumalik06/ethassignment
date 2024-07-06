@@ -52,7 +52,7 @@ Input: address account. Output: Return balances[account]. This brief algorithm o
 ## Authors
 
 Gonu
-Email ID:- gonumalik592g@gmail.com
+Email ID:- gonumalik592@gmail.com
 
 ## License
 
